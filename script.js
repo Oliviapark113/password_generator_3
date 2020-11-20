@@ -29,8 +29,8 @@ function writePassword() {
     let charCount = parseInt(prompt("Please choose password character a length at least 8 but less than 128"));
 
     if (charCount < 7 || charCount > 127) {
-        alert("Password character should be in 8 - 128 characters..Please enter vailid number")
-        errorMsg.innerHTML = "Password character should be in 8 - 128 characters..Please enter vailid number";
+        alert("Password character should be in 8 - 128 characters..Please enter valid number")
+        errorMsg.innerHTML = "Password character should be in 8 - 128 characters..Please enter valid number";
         errorMsg.setAttribute("class", "");
     }
 
